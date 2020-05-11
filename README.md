@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This landing page was developed as part of an job position at Elo7 company
+
 
 ## Available Scripts
 
