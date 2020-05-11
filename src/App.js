@@ -1,15 +1,13 @@
 import React from 'react';
+import Header from './components/header/Header'
+
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="header-image">
-          <h1>Trabalhe no Elo7</h1>
-        </div>
-      </div>
+      <Header />
     </div>
   );
 }

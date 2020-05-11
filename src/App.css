@@ -13,17 +13,3 @@ h1, h2 {
 }
 
 /* Header */
-.header-image {
-  background-image: url('./assets/images/foto-header.png');
-  background-repeat: no-repeat;
-  min-height: 450px;
-  background-position: center;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.header-image h1 {
-  margin-bottom: 70px;
-}
