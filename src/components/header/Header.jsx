@@ -16,7 +16,7 @@ const Header = () => {
         </p>
       </div>
       <hr />
-      <a href="https://elo7.gupy.io/" className="link" >
+      <a href="#open-positions-id" className="link" >
         Vagas em Aberto &#8811;
       </a>
     </div>

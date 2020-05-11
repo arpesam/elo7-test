@@ -40,7 +40,7 @@ const OpenPositions = () => {
   }
 
   return (
-    <div className="open-positions">
+    <div className="open-positions" id="open-positions-id">
       <h3 className="to-uppercase title">Vagas em aberto</h3>
       <div>
         <h3 className="to-uppercase job-category">Desenvolvimento</h3>
