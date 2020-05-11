@@ -8,12 +8,11 @@
 }
 
 .header h1 {
-  margin-bottom: 70px;
+  margin-bottom: 125px;
+  font-size: 3em;
+  text-shadow: 0.5px 0.5px rgb(110, 109, 109);
 }
 
-.link-open-positions {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  color: #159197;
+.header-text {
+  margin-top: 22px;
 }

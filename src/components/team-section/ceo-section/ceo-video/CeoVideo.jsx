@@ -6,7 +6,7 @@ const CeoVideo = () => {
       <iframe
         title="ceo-video"
         width="400"
-        height="220"
+        height="210"
         src="https://www.youtube.com/embed/UQ2-6gk9Szs"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

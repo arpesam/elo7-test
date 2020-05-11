@@ -9,7 +9,7 @@ import './TeamProfiles.css'
 const TeamProfiles = () => {
   return (
     <div>
-      <h3 className="to-uppercase">
+      <h3 className="to-uppercase title">
         Conheça nosso time <br />
         fora de série
       </h3>

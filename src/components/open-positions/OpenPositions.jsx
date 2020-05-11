@@ -24,26 +24,26 @@ const OpenPositions = () => {
 
   const getPositions = () => {
     return positions.map((position, index) => {
-      if (position.ativa) {
-        return (
-          <div key={index} className="flex-row positions-list">
-            <div>
-              <a href={position.link} target="_blank" className="link-description">
-                {position.cargo}
-              </a>
-            </div>
-            <div>{formatLocalizacao(position)}</div>
+      if (!position.ativa) return null
+      
+      return (
+        <div key={index} className="flex-row positions-list">
+          <div>
+            <a href={position.link} target="_blank" className="link-description" rel="noopener noreferrer">
+              {position.cargo}
+            </a>
           </div>
-        )
-      }
+          <div>{formatLocalizacao(position)}</div>
+        </div>
+      )
     })
   }
 
   return (
     <div className="open-positions">
-      <h3 className="to-uppercase">Vagas em aberto</h3>
+      <h3 className="to-uppercase title">Vagas em aberto</h3>
       <div>
-        <h4 className="to-uppercase job-category">Desenvolvimento</h4>
+        <h3 className="to-uppercase job-category">Desenvolvimento</h3>
       </div>
       {getPositions()}
     </div>

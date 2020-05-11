@@ -1,16 +1,22 @@
 .ceo-section {
   width: 100%;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.ceo-text {
-  width: 100%;
+.ceo-text-container {
+  min-width: 50%;
   text-align: left;
   padding-left: 50px;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
+.ceo-text-container > div > h3 {
+  margin: 0 0 5px 0;
+}
+
 .ceo-name {
-  color: #d6a21c;
+  color: #ffc830;
+  font-size: 1.2em;
 }

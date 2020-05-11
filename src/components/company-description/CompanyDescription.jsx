@@ -18,11 +18,11 @@ const CompanyDescription = () => {
         href="https://www.linkedin.com/company/elo7/"
         target="_blank"
         rel="noopener noreferrer"
-        className="to-uppercase link-more-info"
+        className="to-uppercase link"
       >
         Saiba Mais &#8811;
       </a>
-      <img src={companyParty} alt="company-party" style={{ margin: '40px 0 0 0' }}/>
+      <img src={companyParty} alt="company-party" style={{ marginTop: '50px' }}/>
     </div>
   )
 }
