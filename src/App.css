@@ -26,3 +26,14 @@ p {
 hr {
   width: 20%;
 }
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

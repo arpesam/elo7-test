@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-      <div className="header">
+      <div className="header flex-column">
         <h1>Trabalhe no Elo7</h1>
       </div>
       <div>

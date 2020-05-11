@@ -1,11 +1,15 @@
 import React from 'react'
 import './TeamSection.css'
+import camila from '../../assets/images/camila.png';
+import guto from '../../assets/images/guto.png';
+import david from '../../assets/images/david.png';
+import beatriz from '../../assets/images/beatriz.png';
 
 
 const TeamSection = () => {
   return (
     <div className="team-section-wrapper" >
-      <div className="team-section">
+      <div className="ceo-section flex-row">
         <div>
           <iframe
             title="ceo-video"
@@ -17,7 +21,7 @@ const TeamSection = () => {
             allowfullscreen> 
           </iframe>
         </div>
-        <div className="ceo-text">
+        <div className="ceo-text flexx-column">
           <div>
             <h4 className="to-uppercase">Palavra do CEO</h4>
             <p className="ceo-name">
@@ -30,6 +34,18 @@ const TeamSection = () => {
             metus leo nec est. Curabitur placerat lorem vel volutpat efficitur. Lorem ipsum dolor sit 
             amet.
           </p>
+        </div>
+      </div>
+      <div>
+        <h3 className="to-uppercase">
+          Conheça nosso time <br />
+          fora de série
+        </h3>
+        <div className="team-gallery flex-row">
+          <img src={camila} alt="image-1"/>
+          <img src={guto} alt="image-2"/>
+          <img src={david} alt="image-3"/>
+          <img src={beatriz} alt="image-4"/>
         </div>
       </div>
     </div>
