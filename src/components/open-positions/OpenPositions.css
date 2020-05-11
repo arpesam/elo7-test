@@ -1,0 +1,10 @@
+.positions-list {
+  padding: 15px 5%;
+  justify-content: space-between;
+}
+
+.link-description {
+  text-decoration: none;
+  font-weight: bold;
+  color: #159197;
+}
