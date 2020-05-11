@@ -6,7 +6,7 @@ const OpenPositions = () => {
   const [ positions, setPositions ] = useState([])
 
   useEffect(() => {
-    fetch('http://www.mocky.io/v2/5d6fb6b1310000f89166087b')
+    fetch('https://www.mocky.io/v2/5d6fb6b1310000f89166087b')
       .then(res => res.json())
       .then(res => setPositions(res.vagas))
   }, [])

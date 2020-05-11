@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './card/Card.jsx'
-import { cardData } from './company-description'; 
-import companyParty from '../../assets/images/foto-bottom.png'
+import { cardData } from './company-description';
 import './CompanyDescription.css'
 
 
