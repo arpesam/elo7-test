@@ -22,7 +22,7 @@ const CompanyDescription = () => {
       >
         Saiba Mais &#8811;
       </a>
-      <img src={companyParty} alt="company-party" style={{ margin: '40px 0' }}/>
+      <img src={companyParty} alt="company-party" style={{ margin: '40px 0 0 0' }}/>
     </div>
   )
 }

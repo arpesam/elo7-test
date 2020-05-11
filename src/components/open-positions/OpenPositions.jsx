@@ -40,7 +40,11 @@ const OpenPositions = () => {
   }
 
   return (
-    <div>
+    <div className="open-positions">
+      <h3 className="to-uppercase">Vagas em aberto</h3>
+      <div>
+        <h4 className="to-uppercase job-category">Desenvolvimento</h4>
+      </div>
       {getPositions()}
     </div>
   )
