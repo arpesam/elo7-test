@@ -8,8 +8,18 @@
   align-items: center;
 }
 
+.container {
+  max-width: 958px;
+}
+
 h1, h2 {
   margin: 0;
 }
 
-/* Header */
+p {
+  line-height: 1.6em;
+}
+
+hr {
+  width: 20%;
+}
