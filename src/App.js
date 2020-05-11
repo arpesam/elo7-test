@@ -9,10 +9,12 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <TeamSection />
-      <CompanyDescription />
-      <OpenPositions />
+      <div className="content">
+        <Header />
+        <TeamSection />
+        <CompanyDescription />
+        <OpenPositions />
+      </div>
     </div>
   );
 }

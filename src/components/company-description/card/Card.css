@@ -1,10 +1,10 @@
 .card {
-  max-width: 30%;
-  margin: 0 20px;
+  width: 280px;
+  box-sizing: border-box;
 }
 
 .card h4 {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .card p {

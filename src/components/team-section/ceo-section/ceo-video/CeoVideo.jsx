@@ -1,9 +1,12 @@
 import React from 'react'
+import './CeoVideo.css'
+
 
 const CeoVideo = () => {
   return (
     <div>
       <iframe
+        className="ceo-video"
         title="ceo-video"
         width="400"
         height="210"
