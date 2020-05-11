@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className="header-container container">
+    <div>
       <div className="header">
         <h1>Trabalhe no Elo7</h1>
       </div>
