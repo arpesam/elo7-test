@@ -4,6 +4,8 @@ import guto from '../../../assets/images/guto.png';
 import david from '../../../assets/images/david.png';
 import beatriz from '../../../assets/images/beatriz.png';
 
+import './TeamProfiles.css'
+
 const TeamProfiles = () => {
   return (
     <div>

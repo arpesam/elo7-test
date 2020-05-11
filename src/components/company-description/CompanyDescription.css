@@ -1,0 +1,11 @@
+.company-description {
+  padding: 3%;
+}
+
+.card {
+  max-width: 30%;
+}
+
+.card p {
+  text-align: justify;
+}
