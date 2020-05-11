@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/elo7-test/precache-manifest.5d11fc8a25b32e447487c63bab96f760.js"
+  "/elo7-test/precache-manifest.9d94e8ece5ad3957d7e4dfeda88ec14e.js"
 );
 
 self.addEventListener('message', (event) => {
