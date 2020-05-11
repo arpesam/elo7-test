@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/elo7-test/static/css/main.84b3ded2.chunk.css",
-    "main.js": "/elo7-test/static/js/main.da5f0f3e.chunk.js",
-    "main.js.map": "/elo7-test/static/js/main.da5f0f3e.chunk.js.map",
+    "main.js": "/elo7-test/static/js/main.0820d94f.chunk.js",
+    "main.js.map": "/elo7-test/static/js/main.0820d94f.chunk.js.map",
     "runtime-main.js": "/elo7-test/static/js/runtime-main.31edaf3d.js",
     "runtime-main.js.map": "/elo7-test/static/js/runtime-main.31edaf3d.js.map",
     "static/js/2.5ff93611.chunk.js": "/elo7-test/static/js/2.5ff93611.chunk.js",
     "static/js/2.5ff93611.chunk.js.map": "/elo7-test/static/js/2.5ff93611.chunk.js.map",
     "index.html": "/elo7-test/index.html",
-    "precache-manifest.c161967058c5d5261f46b10b6e51d9e7.js": "/elo7-test/precache-manifest.c161967058c5d5261f46b10b6e51d9e7.js",
+    "precache-manifest.c439e62ff8733b1b6bf5e245aff98f2d.js": "/elo7-test/precache-manifest.c439e62ff8733b1b6bf5e245aff98f2d.js",
     "service-worker.js": "/elo7-test/service-worker.js",
     "static/css/main.84b3ded2.chunk.css.map": "/elo7-test/static/css/main.84b3ded2.chunk.css.map",
     "static/js/2.5ff93611.chunk.js.LICENSE.txt": "/elo7-test/static/js/2.5ff93611.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.31edaf3d.js",
     "static/js/2.5ff93611.chunk.js",
     "static/css/main.84b3ded2.chunk.css",
-    "static/js/main.da5f0f3e.chunk.js"
+    "static/js/main.0820d94f.chunk.js"
   ]
 }
