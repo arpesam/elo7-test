@@ -39,6 +39,12 @@ const OpenPositions = () => {
     })
   }
 
+  if (!positions.length) {
+    return (
+      <h4>...Buscando vagas, aguarde</h4>
+    )
+  }
+
   return (
     <div className="open-positions" id="open-positions-id">
       <h3 className="to-uppercase title">Vagas em aberto</h3>
