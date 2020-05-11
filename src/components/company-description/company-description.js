@@ -11,7 +11,7 @@ export const cardData = [
     metus.`
   },
   {
-    title: 'Embiente descontraído',
+    title: 'Ambiente descontraído',
     img: relaxed,
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta mauris turpis.
     Vestibulum bibendum, tortor tempus dapibus egestas, diam elit sagittis urna, non efficitur
