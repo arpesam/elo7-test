@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Elo7 Teste </h1>
+      <div className="header">
+        <div className="header-image">
+          <h1>Trabalhe no Elo7</h1>
+        </div>
+      </div>
     </div>
   );
 }
